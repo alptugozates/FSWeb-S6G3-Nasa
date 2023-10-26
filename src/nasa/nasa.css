@@ -1,4 +1,4 @@
-.baslik {
+/* .baslik {
     font-size: 50px;
   background-color: #282c34;
   color:white;
@@ -37,4 +37,34 @@
     border: 5px solid grey;
     color:black;
     font-weight: bold;
+} */
+
+.imgNasa {
+    max-width: 10rem;
+    height: auto;
 }
+
+.navlar {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    text-align: center;
+    margin-right: 3rem;
+    font-size: 1.7rem;
+
+  }
+
+  .icons {
+    gap: 7rem;
+    font-size: 2rem;
+    margin-left: 10rem;
+  }
+
+  .footerNav {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    text-align: center;
+    margin-right: 3rem;
+    font-size: 1.7rem;
+  }

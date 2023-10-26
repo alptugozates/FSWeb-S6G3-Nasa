@@ -4,6 +4,9 @@ import axios from "axios";
 import Nasa from "./nasa/nasa"
 import Tarih from "./tarih";
 import { dummyData } from "./dummy";
+import Header from "./header";
+import Footer from "./nasa/footer";
+import { IconName } from "react-icons/fa";
 
 
 function App() {
@@ -25,8 +28,11 @@ useEffect(() => {
  
   return (
     <div className="App">
+      <Header />
   <Nasa data={data} />
   <Tarih changer={dateChanger} />
+  <Footer />
+  
 
     </div>
   );
